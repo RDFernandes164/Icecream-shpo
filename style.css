@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(185, 209, 255);
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header{
+    width: 180vh;
+    height: 45px;
+    background: rgb(53, 95, 175);
+    left: 0;
+    right: 0;
+    margin: auto;   
+}
+header nav li{
+    list-style: none;
+    font-size: 1.1em;
+    font-weight: 500;   
+}
+header nav li a{
+    color: aliceblue;
+    position: relative;
+    top: 10px;
+    margin: auto 10px;
+}
+main .container{
+    background: aliceblue;
+    width: 180vh;
+    height: 343px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+main .container p{
+    color: rgb(211, 81, 81);
+    font-size: 1.1em;
+    font-weight: 500;
+    position: relative;
+    left: 10px;
+    top: 12px;
+}
+main .container .products{
+    display: flex;
+    height: 300px;
+}
+main .container .products .image{
+    position: relative;
+    top: -18px; 
+    margin: 0 37px;
+
+}
+main .container .products .image .flavor{ 
+    width: auto;
+    height: auto;
+    display: flex;
+    text-align: left;
+    padding: 5px;
+    color: aliceblue;
+    background: rgb(211, 81, 81);
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
